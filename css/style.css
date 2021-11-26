@@ -1,0 +1,44 @@
+/*this csss file is for index and register*/
+* {
+	font-family: 'Dancing Script', cursive; /*google font*/ 
+}
+div {
+	text-align:right; 
+}
+body {
+	background-image: url(../images/background1.jpg);
+	background-size: cover;
+}
+h2,h3{ 
+	color: white;     /*color and text-align apply for both h2 and h3*/
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.webtext {
+	text-align: left;
+	font-size: 20px;
+}
+.active {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+
+}
+p
+{
+	color:white;
+	
+	font-size: 20px;
+}
+form{
+	font-size: 25px;
+	color:white;
+	text-align: center;
+}
+
