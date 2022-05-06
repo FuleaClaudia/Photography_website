@@ -1,12 +1,14 @@
 
 * {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Roboto Flex', sans-serif;
 	text-align: right;
 }
 .container{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	row-gap: 20px;
+	
 }
 body {
 	background-image: url(../images/background1.jpg);
@@ -17,8 +19,8 @@ h1{
 	color: white;
 	font-size: 3em;
 	text-align: center;
-	border-bottom: 2px solid green;
-	border-right: 2px solid green;
+	border-bottom: 2px solid rgb(73, 11, 11);
+	border-right: 3px solid rgb(73, 11, 11);
 	width: 400px;
 	box-shadow: 5px 5px 5px 5px #888888;
 }
